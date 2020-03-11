@@ -1,0 +1,25 @@
+
+# Bill of Material
+
+From Pycom.io
+
+- LoPy4 (With headers), https://pycom.io/product/lopy4/
+- Expansion board 3.0, https://pycom.io/product/expansion-board-3-0/
+- LoRa/SigFox antenna, https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/
+
+
+
+What you also need is:
+
+- Micro USB cable (likely any would do)
+- 
+
+
+
+
+If you want LTE as well, the FiPy4 is the way to go (in that case, replace LoPy4 with FiPy). It's a bit more expensive, but does the same thing as LoPy4 with added benefit of LTE/NB IoT as well.
+
+- FiPy4 https://pycom.io/product/fipy/
+- Expansion board 3.0, https://pycom.io/product/expansion-board-3-0/
+- LTE antenna, https://pycom.io/product/lte-m-antenna-kit/
+- LoRa/SigFox antenna, https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/
