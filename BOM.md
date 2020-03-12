@@ -12,15 +12,12 @@ You will get **20 % of your order** from Pycom with the code provided by mail wh
 ##What you also need is:
 
 * Micro USB cable (*high quality, you probably already have some lying around*)
-- Sensors of your choice. I recommend a [starting kit ](https://www.amazon.de/Elegoo-aufger%C3%BCsteter-Sensormodul-Bausatz-Anleitung/dp/B01M30ZWQR/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sensor+kit+arduino&qid=1583957059&sr=8-5)for ~30 EUR.
 
-- [Breadboard(s)](https://www.amazon.de/Elegoo-Breadboard-Solderless-Distribution-Verbindungsbl%C3%B6cke/dp/B01MCRZFE5/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L86WOJGVV8CB&keywords=breadboard&qid=1583957299&sprefix=breadboard%2Caps%2C282&sr=8-3).
+- Sensors of your choice. I recommend a starting kit from either [amazon.de](https://www.amazon.de/Elegoo-aufger%C3%BCsteter-Sensormodul-Bausatz-Anleitung/dp/B01M30ZWQR/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sensor+kit+arduino&qid=1583957059&sr=8-5) for ~30 EUR, or from Swedish distributor [Kjell.com](https://www.kjell.com/se/produkter/el-verktyg/arduino/moduler/playknowlogy-stora-modul-paketet-for-arduino-p87291)
 
+Wiring and breadboards:
 
-## Optional, but not needed.
-
-
-
+- [Starting kit for Arduino](https://www.kjell.com/se/produkter/el-verktyg/arduino/arduino-kit/luxorparts-basic-start-kit-for-arduino-p90632) from Swedish distributor or [breadboard(s)](https://www.amazon.de/Elegoo-Breadboard-Solderless-Distribution-Verbindungsbl%C3%B6cke/dp/B01MCRZFE5/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L86WOJGVV8CB&keywords=breadboard&qid=1583957299&sprefix=breadboard%2Caps%2C282&sr=8-3) and [Dupont cables](https://www.amazon.de/Female-Female-Male-Female-Male-Male-Steckbr%C3%BCcken-Drahtbr%C3%BCcken-bunt/dp/B01EV70C78/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=dupont+cable&qid=1584042669&sr=8-3) from amazon.
 
 
 
