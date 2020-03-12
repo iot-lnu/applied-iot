@@ -1,7 +1,12 @@
 
 # Bill of Material
 
-##From Pycom.io
+Bill of materials for the course in Applied IoT (Tillämpad IoT) @ Linnaeus University 2020.
+
+If you have any questions, please let me know and I'll update the BOM. My contact details: [fredrik @ LNU](https://lnu.se/en/staff/fredrik.ahlgren/).
+
+
+## From Pycom.io
 
 * [LoPy4 (With headers)](https://pycom.io/product/lopy4/)
 * [Expansion board 3.0](https://pycom.io/product/expansion-board-3-0/)
@@ -9,7 +14,7 @@
 
 You will get **20 % of your order** from Pycom with the code provided by mail when you registered to the course.
 
-##What you also need is:
+## What you also need is:
 
 * Micro USB cable (*high quality, you probably already have some lying around*)
 
