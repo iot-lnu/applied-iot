@@ -1,20 +1,16 @@
 
 # Bill of Material
 
-Bill of materials for the course in Applied IoT (Tillämpad IoT) @ Linnaeus University 2020.
-
-If you have any questions, please let me know and I'll update the BOM. My contact details: [fredrik @ LNU](https://lnu.se/en/staff/fredrik.ahlgren/).
+Bill of materials for the course in Applied IoT (Tillämpad IoT) @ Linnaeus University 2020. If you have any questions, please let me know and I'll update the BOM. My contact details: [fredrik @ LNU](https://lnu.se/en/staff/fredrik.ahlgren/).
 
 
-## Update 2020-04-14
+## Update 2020-04-21
 
-We are going to send out preassembled lab kits from Linnaeus University with Pycom-devices and some sensors. It will be paid by the student at a discounted price.
+There are going to be pre-assembled kits that can be bought directly from a Swedish distributor at a discounted price. More information will come.
 
 
 
-
-
-
+## If you want to buy stuff right away...
 
 ### From Pycom.io
 
