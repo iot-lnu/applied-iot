@@ -16,7 +16,7 @@ print("DevEUI: " + ubinascii.hexlify(lora.mac()).decode('utf-8').upper())
 # create an OTAA authentication parameters
 
 app_eui = ubinascii.unhexlify('70B3D57ED002CAF4') ## app key
-app_key = ubinascii.unhexlify('53171862A98C347B558FECED79B88AC3')
+app_key = ubinascii.unhexlify('52D5F40501C87C82D6E24AD250649B19')
 
 
 # join a network using OTAA (Over the Air Activation)
@@ -34,15 +34,18 @@ s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
 s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
 # make the socket blocking
 # (waits for the data to be sent and for the 2 receive windows to expire)
-s.setblocking(True)
 
-# send some data
-s.send(bytes([0x01, 0x02, 0x03]))
+while True:
+    time.sleep(60)
+    s.setblocking(True)
 
-# make the socket non-blocking
-# (because if there's no data received it will block forever...)
-s.setblocking(False)
+    # send some data
+    s.send(bytes([0x01, 0x02, 0x03]))
 
-# get any data received (if any...)
-data = s.recv(64)
-print(data)
+    # make the socket non-blocking
+    # (because if there's no data received it will block forever...)
+    s.setblocking(False)
+
+    # get any data received (if any...)
+    data = s.recv(64)
+    print(data)

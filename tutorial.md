@@ -1,0 +1,6 @@
+# Basic setup
+
+
+## Hardware
+
+## Software
