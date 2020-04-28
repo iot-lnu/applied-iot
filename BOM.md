@@ -3,11 +3,12 @@
 
 Bill of materials for the course in Applied IoT (Tillämpad IoT) @ Linnaeus University 2020. If you have any questions, please let me know and I'll update the BOM. My contact details: [fredrik @ LNU](https://lnu.se/en/staff/fredrik.ahlgren/).
 
+**Please use the Slack group as the first hand of contact.**
 
-## Update 2020-04-21
 
-There are going to be pre-assembled kits that can be bought directly from a Swedish distributor at a discounted price. More information will come.
+## Update 2020-04-28
 
+Electrokit.se has agreed on setting up a couple of pre-assembled kits for the course. Links will come very soon.
 
 
 ## If you want to buy stuff right away...
@@ -17,8 +18,6 @@ There are going to be pre-assembled kits that can be bought directly from a Swed
 * [LoPy4 (With headers)](https://pycom.io/product/lopy4/)
 * [Expansion board 3.0](https://pycom.io/product/expansion-board-3-0/)
 * [LoRa/SigFox antenna](https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/)
-
-You will get **20 % of your order** from Pycom with the code provided by mail when you registered to the course.
 
 ### What you also need is:
 
