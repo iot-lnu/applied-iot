@@ -6,17 +6,15 @@ Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1
 **Please use the Slack group #1dt305-tillämpad-iot @ [coursepress.slack.com](https://coursepress.slack.com) as the first hand of contact.**  You should get an invite after being admitted to the course, if not please contact [Fredrik@LNU](https://lnu.se/en/staff/fredrik.ahlgren/)
 
 
-# Update 2020-04-29
+## Hardware
+
+In order to be able to participate in the course you need to buy **hardware**. The course is based upon MicroPython, and we have chosen to work with Pycom's hardware.
 
 We are happy to announce that [Electrokit.se](https://www.electrokit.com/) has agreed on setting up a couple of pre-assembled kits for the course, these kits will include both Pycom devices and sensors. **Links will come here very soon.**
 
 
 
-
-
-## What to buy?
-
-In order to be able to participate in the course you need to buy **hardware**. The course is based upon MicroPython, and we have chosen to work with Pycom's hardware.
+## What hardware is recommended
 
 
 ### Pycom devices:
