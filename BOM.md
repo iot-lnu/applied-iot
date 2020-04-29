@@ -42,7 +42,7 @@ Wiring and breadboards:
 
 # Pycom.io
 
-You can buy these directly from Pycom.io or from, but it's recommended to buy from a Swedish distributor in first hand as the shipping might be both cheaper and faster.
+You can buy these directly from Pycom.io, but it's recommended to buy from a Swedish distributor in first hand as the shipping might be both cheaper and faster.
 
 * [LoPy4 (With headers)](https://pycom.io/product/lopy4/)
 * [Expansion board 3.0](https://pycom.io/product/expansion-board-3-0/)
