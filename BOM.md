@@ -3,7 +3,7 @@
 
 Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1DT305](https://lnu.se/kurs/tillampad-internet-of-things-introduktion/distans-sommar/)) @ Linnaeus University 2020.
 
-**Please use the Slack group #1dt305-tillämpad-iot @ [coursepress.slack.com](https://github.com/iot-lnu/applied-iot-20) as the first hand of contact.**  You should get an invite after being admitted to the course, if not please contact [Fredrik@LNU](https://lnu.se/en/staff/fredrik.ahlgren/)
+**Please use the Slack group #1dt305-tillämpad-iot @ [coursepress.slack.com](https://coursepress.slack.com) as the first hand of contact.**  You should get an invite after being admitted to the course, if not please contact [Fredrik@LNU](https://lnu.se/en/staff/fredrik.ahlgren/)
 
 
 # Update 2020-04-29
