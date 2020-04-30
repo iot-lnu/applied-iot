@@ -8,13 +8,12 @@ Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1
 
 ## Hardware
 
-In order to be able to participate in the course you need to buy **hardware**. The course is based upon MicroPython, and we have chosen to work with Pycom's hardware.
+In order to be able to participate in the course you need to buy **hardware**. The course is based upon MicroPython, and we have chosen to work with Pycom's hardware. There is a possibility to flash MicroPython on other boards as well, but that will not be covered in the course. Also, Pycom has a good PyMakr plugin for both Atom.io and VSCode.
 
 We are happy to announce that [Electrokit.se](https://www.electrokit.com/) has agreed on setting up a couple of pre-assembled kits for the course, these kits will include both Pycom devices and sensors. **Links will come here very soon.**
 
 
-
-## What hardware is recommended
+## Recommended hardware - MicroPython boards
 
 
 ### Pycom devices:
@@ -27,7 +26,7 @@ We are happy to announce that [Electrokit.se](https://www.electrokit.com/) has a
 
 * Micro USB cable (you probably already have some lying around)
 
-### You also need sensors:
+### You will also need sensors:
 
 You can choose from a variety of sensors depending on what you want to develop in the course. If you are unsure, please pick just a start kit for Arduino (3.3V).
 
