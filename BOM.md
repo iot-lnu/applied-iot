@@ -10,11 +10,20 @@ Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1
 
 In order to be able to participate in the course you need to buy **hardware**. The course is based upon MicroPython, and we have chosen to work with Pycom's hardware. There is a possibility to flash MicroPython on other boards as well, but that will not be covered in the course. Also, Pycom has a good PyMakr plugin for both Atom.io and VSCode.
 
-We are happy to announce that [Electrokit.se](https://www.electrokit.com/) has agreed on setting up a couple of pre-assembled kits for the course, these kits will include both Pycom devices and sensors. The following are the kits that we recommend for this course. Depending on your needs you may choose sensors only bundle, LoPy4 basic bundle, or LoPy4 + sensors bundle.
+We are happy to announce that [Electrokit](https://www.electrokit.com/) has agreed on setting up a couple of pre-assembled kits for the course, these kits will include both Pycom devices and sensors. The following are the kits that we recommend for this course. Depending on your needs you may choose sensors only bundle, LoPy4 basic bundle, or LoPy4 + sensors bundle.
 
 * [LNU – 1DT305 Tillämpad IoT – Sensors only bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-sensors-only-bundle/)
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 Basic bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-basic-bundle/)
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 and sensors bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/)
+
+We also recommend buying a **sensor-kit**, as the bundles above are just the bare basics:
+
+* [Electrokit, sensor-kit 26 moduler](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)
+
+or from:
+
+* [amazon.de](https://www.amazon.de/Elegoo-aufger%C3%BCsteter-Sensormodul-Bausatz-Anleitung/dp/B01M30ZWQR/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sensor+kit+arduino&qid=1583957059&sr=8-5)
+* [Kjell.com](https://www.kjell.com/se/produkter/el-verktyg/arduino/moduler/playknowlogy-stora-modul-paketet-for-arduino-p87291)
 
 
 ## Recommended hardware - MicroPython boards
@@ -34,13 +43,13 @@ We are happy to announce that [Electrokit.se](https://www.electrokit.com/) has a
 
 You can choose from a variety of sensors depending on what you want to develop in the course. If you are unsure, please pick just a start kit for Arduino (3.3V).
 
-- Sensors of your choice. I recommend a starting kit from either [amazon.de](https://www.amazon.de/Elegoo-aufger%C3%BCsteter-Sensormodul-Bausatz-Anleitung/dp/B01M30ZWQR/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sensor+kit+arduino&qid=1583957059&sr=8-5) for ~30 EUR, or from Swedish distributor [Kjell.com](https://www.kjell.com/se/produkter/el-verktyg/arduino/moduler/playknowlogy-stora-modul-paketet-for-arduino-p87291)
+- Sensors of your choice. I recommend a starting kit from either [amazon.de](https://www.amazon.de/Elegoo-aufger%C3%BCsteter-Sensormodul-Bausatz-Anleitung/dp/B01M30ZWQR/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sensor+kit+arduino&qid=1583957059&sr=8-5) for ~30 EUR, or from Swedish distributor [Kjell.com](https://www.kjell.com/se/produkter/el-verktyg/arduino/moduler/playknowlogy-stora-modul-paketet-for-arduino-p87291) or 
+[Electrokit](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)
+
 
 Wiring and breadboards:
 
-- [Starting kit for Arduino](https://www.kjell.com/se/produkter/el-verktyg/arduino/arduino-kit/luxorparts-basic-start-kit-for-arduino-p90632) from Swedish distributor or [breadboard(s)](https://www.amazon.de/Elegoo-Breadboard-Solderless-Distribution-Verbindungsbl%C3%B6cke/dp/B01MCRZFE5/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L86WOJGVV8CB&keywords=breadboard&qid=1583957299&sprefix=breadboard%2Caps%2C282&sr=8-3) and [Dupont cables](https://www.amazon.de/Female-Female-Male-Female-Male-Male-Steckbr%C3%BCcken-Drahtbr%C3%BCcken-bunt/dp/B01EV70C78/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=dupont+cable&qid=1584042669&sr=8-3) from amazon.
-
-
+- [Starting kit for Arduino Kjell.com](https://www.kjell.com/se/produkter/el-verktyg/arduino/arduino-kit/luxorparts-basic-start-kit-for-arduino-p90632) or [breadboard(s) from Amazon](https://www.amazon.de/Elegoo-Breadboard-Solderless-Distribution-Verbindungsbl%C3%B6cke/dp/B01MCRZFE5/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L86WOJGVV8CB&keywords=breadboard&qid=1583957299&sprefix=breadboard%2Caps%2C282&sr=8-3) and [Dupont cables](https://www.amazon.de/Female-Female-Male-Female-Male-Male-Steckbr%C3%BCcken-Drahtbr%C3%BCcken-bunt/dp/B01EV70C78/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=dupont+cable&qid=1584042669&sr=8-3).
 
 
 # Pycom.io

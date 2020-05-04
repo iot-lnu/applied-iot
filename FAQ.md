@@ -18,6 +18,6 @@ Vi har valt att arbeta med MicroPython. Mycket för att det är enkelt att komma
 
 * _Vilka sensorer behöver jag köpa?_
 
-Detta är lite upp till dig själv. Om du har råd så kan jag rekommendera att antingen köpa ett startkit för Ardunio, finns beskrivet i [BOM](BOM.md) eller något av de större paketen. Dock, för att klara av kursen räcker det teoretiskt med endast en sensor, så vill du bara doppa tån och testa och inte köpa så mycket, köp då bara en tempsensor eller liknande.
+Detta är lite upp till dig själv. Om du har råd så kan jag rekommendera att antingen köpa ett startkit för Ardunio, finns beskrivet i [BOM](BOM.md) eller något av de större paketen. Dock, för att klara av kursen räcker det teoretiskt med endast en sensor, så vill du bara doppa tån och testa och inte köpa så mycket, köp då bara en temperatursensor eller liknande.
 
 
