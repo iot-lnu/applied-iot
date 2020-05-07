@@ -38,8 +38,8 @@ Install [Docker](https://docs.docker.com/get-docker/) on your computer.
 
 ## Platforms
 
-
 [Pybytes](https://pybytes.pycom.io/)
+
 
 
 [Adafriut IO](https://io.adafruit.com/frahlg/dashboards/welcome-dashboard)
