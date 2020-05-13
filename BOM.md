@@ -16,6 +16,8 @@ We are happy to announce that [Electrokit](https://www.electrokit.com/) has agre
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 Basic bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-basic-bundle/)
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 and sensors bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/)
 
+* This is also strongly recommended: [Batterihållare två AAA](https://www.electrokit.com/produkt/batterihallare-2xaa-box-med-strombrytare-och-jst-xh-kontakt/)
+
 We also recommend buying a **sensor-kit**, as the bundles above are just the bare basics:
 
 * [Electrokit, sensor-kit 26 moduler](https://www.electrokit.com/produkt/sensor-kit-26-moduler/)
