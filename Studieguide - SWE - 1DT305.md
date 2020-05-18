@@ -12,6 +12,8 @@
 
 # Studieguide 1DT305
 
+[Kursplan](https://kursplan.lnu.se/kursplaner/kursplan-1DT305-1.pdf)
+
 
 ## Översikt
 
@@ -52,20 +54,54 @@ Då det är många studenter som läser kursen samtidigt är det mycket viktigt 
 
 
 | Kursmål			| Uppgift |
-| --- | --- |
-| grundläggande kunskap om området Internet of Things (IoT) | Q1
-| grundläggande programmeringskunskaper i Python och MicroPython | Q2
-| grundläggande kunskap om sensorer och datainsamling | Q3, R1
-|  grundläggande kunskap om IoT­ infrastruktur och dess meddelandeprotokoll | Q3
-grundläggande kunskap om datavisualisering och databaser | Q3, R1
-praktisk grundläggande kunskap i att utveckla ett IoT­ projekt | R1
-praktisk grundläggande kunskap gällande utskrift i 3D | Q4
+| :---: | :---: |
+| grundläggande kunskap om området Internet of Things (IoT) | **Q1**
+| grundläggande programmeringskunskaper i Python och MicroPython | **Q2**
+| grundläggande kunskap om sensorer och datainsamling | **Q3**, R1
+|  grundläggande kunskap om IoT­ infrastruktur och dess meddelandeprotokoll | **Q3**
+| grundläggande kunskap om datavisualisering och databaser | **Q3**, R2
+| praktisk grundläggande kunskap i att utveckla ett IoT­ projekt | P1, **R1**
+| praktisk grundläggande kunskap gällande utskrift i 3D | **Q4**
 
-**Viktigt!** För ett betyg >=E krävs ett genomförande av samtliga uppgifter.
+**Fet stil** nivå godkänt (E - C).
 
-**Q** = Quiz, **R** = Project report
+<!---
+**Q** = Quiz, **R** = Project report, **P** = Presentation.
+--->
+
+* **[Q1, Q2, Q3, Q4]**: *Quizzar* på Moodle
+* **R1**: Grundläggande rapport, Moodle
+* **R2**: Mer omfattande rapport, Moodle
+* **P1**: Muntlig redovisning i seminarie
+
 
 ## Deadlines
+
+Kursen börjar **måndagen den 8:e juni 2020** och slutar **söndagen den 12:e juli 2020**.
+
+Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
+
+
+## Betyg
+
+
+
+**Viktigt!** För ett betyg >=E krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
+
+
+| Uppgift | Obligatorisk | Skala | Anm. |
+| :---:	| :---: | :---: | --- |
+| Q1 | **Ja**	| U/G | 	Quiz 1 - IoT definitioner
+| Q2 | **Ja**	| U/G |	Quiz 2 - MicroPython
+| Q3 | **Ja**	| U/G |	Quiz 3 - IoT sensorer, protokoll
+| Q4 | **Ja**	| U/G |	Quiz 4 - 3D printing
+| R1 | **Ja** | U/G | Grundläggande skriftlig rapport, enklare projekt
+| R2 | Nej | C-A | Ersätter R1, utökad rapport. Mer avancerat projekt.
+| P1 | Nej | C-A | Presentation, 10min av projektet.
+
+
+## Material
+
 
 
 
