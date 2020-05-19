@@ -2,7 +2,7 @@
 
 //
 
-*200517*
+*200519*
 
 //
 
@@ -85,24 +85,30 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 ## Betyg
 
 
-
 **Viktigt!** För ett betyg >=E krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
 
 
 | Uppgift | Obligatorisk | Skala | Anm. |
 | :---:	| :---: | :---: | --- |
-| Q1 | **Ja**	| U/G | 	Quiz 1 - IoT definitioner
-| Q2 | **Ja**	| U/G |	Quiz 2 - MicroPython
-| Q3 | **Ja**	| U/G |	Quiz 3 - IoT sensorer, protokoll
-| Q4 | **Ja**	| U/G |	Quiz 4 - 3D printing
-| R1 | **Ja** | U/G | Grundläggande skriftlig rapport, enklare projekt
-| R2 | Nej | C-A | Ersätter R1, utökad rapport. Mer avancerat projekt.
-| P1 | Nej | C-A | Presentation, 10min av projektet.
+| Q1 | **Ja**	| F/E | 	Quiz 1 - IoT definitioner
+| Q2 | **Ja**	| F/E |	Quiz 2 - MicroPython
+| Q3 | **Ja**	| F/E |	Quiz 3 - IoT sensorer, protokoll
+| Q4 | **Ja**	| F/E |	Quiz 4 - 3D printing
+| R1 | **Ja** | F-C | Grundläggande skriftlig rapport, enklare projekt (*kan göras i grupp om max två*)
+| R2 | Nej | C-A | Ersätter R1, utökad rapport. Mer avancerat projekt (*måste göras enskild)**
+| P1 | Nej | C-A | Presentation, 10 min av projektet.
 
+*För att kunna få högre betyg än C krävs enskild rapport på nivå **R2**.
 
 ## Material
 
+Kursen har en praktisk inriktning och examination vilket innebär att en IoT-enhet med sensorer krävs för att kunna bli examinerad. Material rekommenderat enligt [Bill of Material](BOM-md) som bör införskaffas innan kursens start. Det går att använda andra enheter, om osäker fråga gärna i [#1dt305 på Slack](coursepress.slack.com).
 
+## Schema
+
+Kursen är fem veckor lång, varav de fyra första veckorna innehåller föreläsningar och workshops. Alla schemalagda föreläsningar och workshops är förlagda till kvällstid mellan måndag - torsdag.
+
+Kursens [schema](planning.md) kommer uppdateras på kursens Github-sida [schema](planning.md) samt via Slack. 
 
 
 
