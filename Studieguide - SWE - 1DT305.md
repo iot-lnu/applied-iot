@@ -2,7 +2,7 @@
 
 //
 
-*200519*
+*200521*
 
 //
 
@@ -32,9 +32,12 @@
 - **Interagera med studenter och lärare på Slack**. Fråga, och var inte rädd att svara på frågor från andra studenter. Kom ihåg - var trevlig och respektfull. Kursens framgång bygger på er medverkan.
 - Framförallt - försök anamma en positiv inställning och ha kul.
 
-### Information om kursen
 
-Kursens föreläsningar och material kommer övervägande del vara på engelska, dock är kursens formella språk svenska. Vid frågor i Slack gällande hjälp om uppgifter kan det vara fördel att ställa dessa på engelska då det blir lättare för våra lärarassistenter att hjälpa.
+### Mål
+
+Målet med kursen är att du ska bygga en uppkopplad sensorenhet som ger ett mätvärde som presenteras över internet. I första hand kommer teknik specifikt för batterisnåla IoT-enheter att omfattas. Kursen är en **introduktionskurs**. Det är ditt eget lärande och intresse det handlar om, du kommer således ha stor möjlighet att styra ditt projekt efter egna önskemål.
+
+
 
 ## Kommunikationsstrategi
 
@@ -49,8 +52,10 @@ Då det är många studenter som läser kursen samtidigt är det mycket viktigt 
 
 ![reactions](reactions.png)
 
-## Uppgifter
+Kursens föreläsningar och material kommer övervägande del vara på engelska, dock är kursens formella språk svenska. Vid frågor i Slack gällande hjälp om uppgifter kan det vara fördel att ställa dessa på engelska då det blir lättare för våra lärarassistenter att hjälpa.
 
+
+## Uppgifter
 
 
 | Kursmål			| Uppgift |
@@ -82,10 +87,14 @@ Kursen börjar **måndagen den 8:e juni 2020** och slutar **söndagen den 12:e j
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 
-## Betyg
+## Examination och betyg
 
+Bedömning av de studerandes prestationer sker genom
 
-**Viktigt!** För ett betyg >=E krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
+- Projektarbetet, skriftlig slutrapport.
+- Aktivt deltagande (via Quizar och diskussioner i Slack).
+
+**OBS! Om ni önskar ett högre betyg än C** måste ni meddela kursledningen i god tid, senast **två veckor efter kursstart, den 21:a juni.**
 
 
 | Uppgift | Obligatorisk | Skala | Anm. |
@@ -98,7 +107,11 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 | R2 | Nej | C-A | Ersätter R1, utökad rapport. Mer avancerat projekt (*måste göras enskild)**
 | P1 | Nej | C-A | Presentation, 10 min av projektet.
 
-*För att kunna få högre betyg än C krävs enskild rapport på nivå **R2**.
+*För att kunna få högre betyg än C krävs enskild rapport på nivå **R2**. Det går också att få ett högre betyg genom att hjälpa andra studenter i Slack.
+
+**Viktigt!** För ett betyg >=E krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
+
+
 
 ## Material
 
