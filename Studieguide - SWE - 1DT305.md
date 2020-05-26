@@ -7,15 +7,15 @@
 
 ## Översikt
 
-- Vad som förväntas av dig som student
-- Mål
-- Kommunikationstrategi
-- Uppgifter
-- Deadlines
-- Examination och betyg
+- [Förväntningar](#Förväntningar)
+- [Mål](#Mål)
+- [Kommunikationstrategi](#Kommunikationstrategi)
+- [Uppgifter](#Uppgifter)
+- [Deadlines](#Deadlines)
+- [Examination](#Examination)
 - [Planering](#planering)
 
-### Vad som förväntas av dig som student
+### Förväntningar
 
 - Läs detta dokumentet **noggrant**. Återkoppla med kommentarer direkt om det är något som är oklart.
 - Planera dina studier. Lägg in tid i din kalender för att lyssna på inspelat material, närvaro på workshops och för uppgifter.
@@ -81,7 +81,7 @@ Kursen börjar **måndagen den 8:e juni 2020** och slutar **söndagen den 12:e j
 Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 
-## Examination och betyg
+## Examination
 
 Bedömning av de studerandes prestationer sker genom;
 
