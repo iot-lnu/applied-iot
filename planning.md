@@ -7,11 +7,13 @@
 
 | Day | Date | Time | Topic | Link |
 | :---: | --- | :--- | :--- | --- |
+| **WEEK 1**|
 | Monday | 06/08 | 18-19 | Course introduction, *Fredrik* | [zoom TBA](zoom)
 | Tuesday | 06/09 | 18-19 | IoT introduction, *Francis* | [zoom TBA](zoom)
 | Wednesday | 06/10 | 18-19 | IoT setup, intro to projects, *Fredrik* | [zoom TBA](zoom)
 | Thursday | 06/11 | 18-21 | Live workshop. *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/12 | 18-19 | Q&A, Fredrik and Francis | [zoom TBA](zoom)
+| **WEEK 2**|
 | Monday | 06/15 | 18-21 | Live workshop. *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Tuesday | 06/16 | 18-19 | Guest lecture, 'Den uppkopplade staden', *Kalmar Energi* | [zoom TBA](zoom)
 | Wednesday | 06/17 | 18-20 | Guest lecture, IoT and the Pycom ecosystem, *Bettina Rubek Slater* | [zoom TBA](zoom)
