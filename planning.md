@@ -6,7 +6,7 @@
 ## Live sessions
 
 | Day | Date | Time | Topic | Link |
-| :---: | --- | :--- | :--- | --- | --- |
+| :---: | --- | :--- | :--- | --- |
 | Monday | 06/08 | 18-19 | Course introduction, *Fredrik* | [zoom TBA](zoom)
 | Tuesday | 06/09 | 18-19 | IoT introduction, *Francis* | [zoom TBA](zoom)
 | Wednesday | 06/10 | 18-19 | IoT setup, intro to projects, *Fredrik* | [zoom TBA](zoom)
