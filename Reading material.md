@@ -20,9 +20,9 @@ LoRa technology background:
 
 [TTN Tutorial on bytes](https://www.thethingsnetwork.org/docs/devices/bytes.html)	
 	
-	
 [Best practices with TTN OTAA or ABP](https://www.thethingsnetwork.org/docs/devices/bestpractices.html)
 
-	
+
+[TTN to InfluxDB](https://www.influxdata.com/blog/connecting-the-things-network-to-influxdb/)
 	
 	
