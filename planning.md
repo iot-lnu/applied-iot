@@ -22,7 +22,7 @@
 | **WEEK 3**| **------**|**------** |**------**
 | Monday | 06/22 | 18-21 | Live workshop, **Sending data. Wifi, LoRa.**  *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Tuesday | 06/23 | 18-19 | Guest lecture, Medsen *Per Strömberg*| [zoom TBA](zoom)
-| Wednesday | 06/24 | 18-19 | IoT platforms, *Fredrik* | [zoom TBA](zoom)
+| Wednesday | 06/24 | 18-19 | Guest lecture, **IoT in developing countries**, *Marco Zennaro*  | [zoom TBA](zoom)
 | Thursday | 06/25 | 18-21 | Live workshop, **Receiving data in the cloud.**  *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/26 | 18-19 | **Q&A**, *Fredrik and Francis* | [zoom TBA](zoom)
 | **WEEK 4**| **------**|**------** |**------**
