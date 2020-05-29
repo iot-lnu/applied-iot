@@ -1,7 +1,7 @@
 # Planning Applied IoT distance course
 ###1DT305, summer 2020 @ Linnaeus University
 
-
+[Google Calendar link](https://calendar.google.com/calendar?cid=ZWxocHJrZGE3M2o5am9mM2ZtNmdzaWtpajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 ## Live sessions
 
