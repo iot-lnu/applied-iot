@@ -9,7 +9,6 @@
 | :---: | --- | :--- | :--- | --- |
 | **WEEK 1**| **------**|**------** |**------**
 | Monday | 06/08 | 18-19 | Course introduction, *Fredrik* | [zoom TBA](zoom)
-| Tuesday | 06/09 | 18-19 | IoT introduction, *Francis* | [zoom TBA](zoom)
 | Wednesday | 06/10 | 18-19 | IoT setup, intro to projects, *Fredrik* | [zoom TBA](zoom)
 | Thursday | 06/11 | 18-21 | Live workshop, **Intro and basic setup**. *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/12 | 18-19 | **Q&A**, Fredrik and Francis | [zoom TBA](zoom)
@@ -39,6 +38,7 @@
 | Name | Topic | Link |
 | :--- | :--- | :--- |
 | Kursintroduktion (SWE) | Introduktion | [YT ...]()
+| Tuesday | 06/09 | IoT introduction, *Francis* | [YT ...]()
 | Sensor-1 / CCS811 sensor | Sensor | [YT Air Quality sensor](https://www.youtube.com/watch?v=0J6RoZrEQes)
 | 3D printing Workshop (SWE) | 3d-printing | [YT 3d-printing](https://www.youtube.com/watch?v=0iGS7rjXA3k)
 
