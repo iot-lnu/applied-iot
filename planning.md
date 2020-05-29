@@ -38,7 +38,7 @@
 | Name | Topic | Link |
 | :--- | :--- | :--- |
 | Kursintroduktion (SWE) | Introduktion | [YT ...]()
-| Introduction to IoT | Introduction | [YT ...]()
+| Introduction to IoT | 06/09 | [YT ...]()
 | Sensor-1 / CCS811 sensor | Sensor | [YT Air Quality sensor](https://www.youtube.com/watch?v=0J6RoZrEQes)
 | 3D printing Workshop (SWE) | 3d-printing | [YT 3d-printing](https://www.youtube.com/watch?v=0iGS7rjXA3k)
 
