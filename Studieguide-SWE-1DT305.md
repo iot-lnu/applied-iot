@@ -1,7 +1,5 @@
-*DRAFT VERSION* / **200526**
-
-
 # Studieguide 1DT305
+###### tags: 'study-guide' 'planning'
 
 [Kursplan](https://kursplan.lnu.se/kursplaner/kursplan-1DT305-1.pdf)
 
@@ -111,7 +109,7 @@ Bedömning av de studerandes prestationer sker genom;
 
 Kursen är fem veckor lång, varav de fyra första veckorna innehåller föreläsningar och workshops. Alla schemalagda föreläsningar och workshops är förlagda till kvällstid mellan måndag - torsdag.
 
-Kursens [schema](planning.md) kommer uppdateras på kursens Github-sida [schema](planning.md) samt via Slack. 
+Kursens [schema](planning.md) kommer uppdateras på kursens Github-sida [schema](planning.md), via Google Calendar samt via Slack. 
 
 
 
