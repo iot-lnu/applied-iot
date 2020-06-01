@@ -1,5 +1,8 @@
 # Planning Applied IoT distance course
-###1DT305, summer 2020 @ Linnaeus University
+
+###### tags: 'planning' 'schedule'
+
+### 1DT305, summer 2020 @ Linnaeus University
 
 [Google Calendar link](https://calendar.google.com/calendar?cid=ZWxocHJrZGE3M2o5am9mM2ZtNmdzaWtpajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
@@ -14,7 +17,8 @@
 | Friday | 06/12 | 18-19 | **Q&A**, Fredrik and Francis | [zoom TBA](zoom)
 | **WEEK 2**| **------**|**------** |**------**
 | Monday | 06/15 | 18-21 | Live workshop, **Basic hardware, sensor setup, blinking LED, etc.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
-| Tuesday | 06/16 | 18-19 | Guest lecture, '**Den uppkopplade staden**', *Kalmar Energi* | [zoom TBA](zoom)
+| Tuesday | 06/16 | 18-19 | Guest lecture, '**Den uppkopplade staden**', *Kalmar Energi* | [Zoom](
+https://lnu-se.zoom.us/j/68591273914)
 | Wednesday | 06/17 | 18-20 | Guest lecture, **IoT and the Pycom ecosystem**, *Bettina Rubek Slater* | [zoom TBA](zoom)
 | Thursday | 06/18 | 18-19 | Live workshop, **Pybytes, PyMakr plugin.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/19 |  | **Midsummer** |
