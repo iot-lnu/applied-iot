@@ -1,5 +1,5 @@
 # Studieguide 1DT305
-###### tags: 'study-guide' 'planning'
+###### tags: `planning`
 
 [Kursplan](https://kursplan.lnu.se/kursplaner/kursplan-1DT305-1.pdf)
 
@@ -36,15 +36,17 @@ Kursen har en praktisk inriktning och examination vilket innebär att en IoT-enh
 Då det är många studenter som läser kursen samtidigt är det mycket viktigt att alla gör sitt bästa för att följa denna strategin.
 
 - *Personliga* frågor gällande formella medverkan på kursen, frånvaro, betyg skickas via email till kursansvarig, [Fredrik Ahlgren](mailto:fredrik.ahlgren@lnu.se).
-- Frågor kring kursen, uppgifter, examination, schema, ställs i Slack i kanalen **#1dt305-tillämpad-iot**.
-- Information gällande kursen kommer postas i **#1dt305-tillämpad-iot**. Viktig information kommer att delges här, och det är _viktigt_ att du läser allt.
-- Reagera till **alla** 'pinned posts' på Slack. Ni kan filtrera ut dessa enligt figurer nedan.
+- Frågor kring kursen, uppgifter, examination, schema, ställs i Slack **#1dt305-tillämpad-iot**.
+- Information gällande kursen kommer postas i **#1dt305-tillämpad-iot** på Slack. Det är _viktigt_ att du läser allt som är '*Pinned*'.
+- Reagera till **alla** '*Pinned posts*' på Slack.
+- Ni kan filtrera alla '*Pinned posts*' enligt figur nedan.
 
-![pinned-posts](pinned-posts.png)
+![pinned-posts](https://i.imgur.com/tzT1ZIP.png "Pinned posts Slack" =450x )
 
-![reactions](reactions.png)
+![reactions](https://i.imgur.com/ThRu4s1.png "Reactions Slack" =450x)
 
-Kursens föreläsningar och material kommer övervägande del vara på engelska, dock är kursens formella språk svenska. Vid frågor i Slack gällande hjälp om uppgifter kan det vara fördel att ställa dessa på engelska då det blir lättare för våra lärarassistenter att hjälpa.
+
+Kursens föreläsningar och material kommer övervägande del vara på *engelska*, dock är kursens formella språk *svenska*. Vid frågor i Slack gällande hjälp om uppgifter kan det vara fördel att ställa dessa på engelska då det blir lättare för våra lärarassistenter att hjälpa.
 
 
 ## Uppgifter
@@ -81,12 +83,18 @@ Samtliga moment ska vara genomförda innan kursens slut för ett betyg.
 
 ## Examination
 
-Bedömning av de studerandes prestationer sker genom;
 
-- Projektarbetet, en **Tutorial** som beskriver ditt projekt.
+- Projektarbetet, en [**Tutorial**](https://hackmd.io/@lnu-iot/iot-tutorial) som beskriver ditt projekt.
 - Aktivt deltagande (via Quizar och diskussioner i Slack).
 
-**OBS! Om ni önskar ett högre betyg än C** måste ni presentera och diskutera ert projekt, samt anmäla intresse för högre betyg senast **två veckor efter kursstart, den 22:a juni.** Detta görs via Zoom-workshop. OBS. Om ni ej gjort detta kan vi ej garantera ett högre betyg.
+---
+
+**OBS! Om ni önskar ett högre betyg än C** måste ni presentera och diskutera ert projekt, samt anmäla intresse för högre betyg senast **två veckor efter kursstart, den 22:a juni.** Likaså krävs en mer avancerad [rapport](https://hackmd.io/@lnu-iot/iot-tutorial). Detta görs via Zoom live workshop (**OBS!!** Om ni ej gjort detta kan vi ej garantera ett högre betyg.).
+
+Profilprojekt (dvs med högre betyg) kommer att sammanställas och presenteras som [goda exempel](https://hackmd.io/@lnu-iot/good-examples). Ni hittar en mall och instruktioner för slutrapporten på denna sida:
+[Slutrapport, tutorial template](https://hackmd.io/@lnu-iot/iot-tutorial)
+
+---
 
 
 | Uppgift | Obligatorisk | Skala | Anm. |
@@ -101,7 +109,7 @@ Bedömning av de studerandes prestationer sker genom;
 
 *För att kunna få högre betyg än C krävs enskild rapport på nivå **T2**. Det går också att få ett högre betyg genom att hjälpa andra studenter i Slack.
 
-**Viktigt!** För ett betyg >=E krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
+**Viktigt!** För ett betyg >=C krävs ett genomförande av Q1-Q4 samt R1 innan kursens slut.
 
 
 
@@ -109,7 +117,5 @@ Bedömning av de studerandes prestationer sker genom;
 
 Kursen är fem veckor lång, varav de fyra första veckorna innehåller föreläsningar och workshops. Alla schemalagda föreläsningar och workshops är förlagda till kvällstid mellan måndag - torsdag.
 
-Kursens [schema](planning.md) kommer uppdateras på kursens Github-sida [schema](planning.md), via Google Calendar samt via Slack. 
-
-
-
+Kursens schema kan ses i följande dokument [planning.md](https://hackmd.io/@lnu-iot/planning), via  
+[Google Calendar link](https://calendar.google.com/calendar?cid=ZWxocHJrZGE3M2o5am9mM2ZtNmdzaWtpajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) samt via Slack.
