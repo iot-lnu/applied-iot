@@ -21,7 +21,7 @@
 | Monday | 06/15 | 18-21 | Live workshop, **Basic hardware, sensor setup, blinking LED, etc.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Tuesday | 06/16 | 18-19 | Guest lecture, '**Den uppkopplade staden**', *Kalmar Energi* | [Zoom](https://lnu-se.zoom.us/j/68591273914)
 | Wednesday | 06/17 | 18-20 | Guest lecture, **IoT and the Pycom ecosystem**, *Bettina Rubek Slater* | [zoom](https://lnu-se.zoom.us/j/6466400631)
-| Thursday | 06/18 | 18-21 | Live workshop, **Pybytes, PyMakr plugin.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
+| Thursday | 06/18 | 18-19 | Live workshop, **Pybytes, PyMakr plugin.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/19 |  | **Midsummer** |
 | **WEEK 26**| **------**|**------** |**------**
 | Monday | 06/22 | 18-21 | Live workshop, **Sending data. Wifi, LoRa.**  *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
@@ -43,9 +43,9 @@
 |            Name            | Topic               | Link                                                  |
 |--------------------------:|:------------------- |:----------------------------------------------------- |
 |   Kursintroduktion (SWE)   | Introduktion        | []( ..)                                               |
-|       IoT (Francis)        | Introduction to IoT | [YouTube](https://youtu.be/7s19AwCSNmg)               |
+|       IoT (Francis)        | Introduction to IoT | [Youtube](https://youtu.be/7s19AwCSNmg)               |
 |  Sensor-1 / CCS811 sensor  | Sensor              | [YT Air Quality sensor](https://youtu.be/6x12pDTNqSA) |
-|   Genomgång av tutorial/rapport                         |                     | [YouTube](https://youtu.be/g1oWs8J7lNQ)               |
+|   Genomgång av tutorial/rapport                         |                     | [Youtbe](https://youtu.be/g1oWs8J7lNQ)               |
 | 3D printing Workshop (SWE) | 3d-printing         | [YT 3d-printing](https://youtu.be/pZXlSApSQXU)                                    |
 
 
