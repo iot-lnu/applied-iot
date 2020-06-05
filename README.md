@@ -1,9 +1,12 @@
 # applied-iot-20
 
 
-Repository for the distance course **[Tillämpad Iot Introduktion / Applied IoT @ Linnaeus University](https://lnu.se/kurs/tillampad-internet-of-things-introduktion/distans-sommar/)** 2020.s
+Repository for the distance course **[Tillämpad Iot Introduktion / Applied IoT @ Linnaeus University](https://lnu.se/kurs/tillampad-internet-of-things-introduktion/distans-sommar/)** 2020.
 
-**[Frequently asked questions (Swe/Eng)](FAQ.md)**
+Most of the information will be published on hackmd.io at [https://hackmd.io/@lnu-iot](https://hackmd.io/@lnu-iot)
+
+
+**[Frequently asked questions (Swe/Eng)](https://hackmd.io/@lnu-iot/FAQ-1DT305)**
 
 
 ## Resources
@@ -14,11 +17,11 @@ Kursplanen hittas här: [Kursplan 1DT305](https://kursplan.lnu.se/kursplaner/kur
 
 ### Study guide (Swedish)
 
-[Studieguide](Studieguide-SWE-1DT305.md)
+[Studieguide]()
 
 ### Planning
 
-[Schedule](planning.md)
+[Schedule](https://hackmd.io/@lnu-iot/study-guide)
 
 ### Course material
 
