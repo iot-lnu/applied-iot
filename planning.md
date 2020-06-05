@@ -43,9 +43,9 @@
 |            Name            | Topic               | Link                                                  |
 |--------------------------:|:------------------- |:----------------------------------------------------- |
 |   Kursintroduktion (SWE)   | Introduktion        | []( ..)                                               |
-|       IoT (Francis)        | Introduction to IoT | [Youtube](https://youtu.be/7s19AwCSNmg)               |
+|       IoT (Francis)        | Introduction to IoT | [YouTube](https://youtu.be/7s19AwCSNmg)               |
 |  Sensor-1 / CCS811 sensor  | Sensor              | [YT Air Quality sensor](https://youtu.be/6x12pDTNqSA) |
-|   Genomgång av tutorial/rapport                         |                     | [Youtbe](https://youtu.be/g1oWs8J7lNQ)               |
+|   Genomgång av tutorial/rapport                         |                     | [YouTube](https://youtu.be/g1oWs8J7lNQ)               |
 | 3D printing Workshop (SWE) | 3d-printing         | [YT 3d-printing](https://youtu.be/pZXlSApSQXU)                                    |
 
 
