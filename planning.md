@@ -1,6 +1,6 @@
 # Planning Applied IoT distance course
 
-###### tags: 'planning' 'schedule'
+###### tags: `planning` `schedule`
 
 ### 1DT305, summer 2020 @ Linnaeus University
 
@@ -15,13 +15,13 @@
 | **WEEK 24**| **------**|**------** |**------**
 | Monday | 06/08 | 18-19 | Course introduction, *Fredrik* | [zoom](https://lnu-se.zoom.us/j/6466400631)
 | Wednesday | 06/10 | 18-19 | IoT setup, intro to projects, *Fredrik* | [Zoom](https://lnu-se.zoom.us/j/6466400631)
-| Thursday | 06/11 | 18-21 | Live workshop, **Intro and basic setup**. *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
-| Friday | 06/12 | 18-19 | **Q&A**, Fredrik and Francis | [Zoom](https://lnu-se.zoom.us/j/6466400631)
+| Thursday | 06/11 | 18-21 | Live workshop, **Intro and basic setup**. *Ruslan, Osama, Amer.* | [zoom](https://lnu-se.zoom.us/j/5653103155)
+| Friday | 06/12 | 18-19 | **Q&A session**, Fredrik and Francis | [Zoom](https://lnu-se.zoom.us/j/6466400631)
 | **WEEK 25**| **------**|**------** |**------**
 | Monday | 06/15 | 18-21 | Live workshop, **Basic hardware, sensor setup, blinking LED, etc.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Tuesday | 06/16 | 18-19 | Guest lecture, '**Den uppkopplade staden**', *Kalmar Energi* | [Zoom](https://lnu-se.zoom.us/j/68591273914)
 | Wednesday | 06/17 | 18-20 | Guest lecture, **IoT and the Pycom ecosystem**, *Bettina Rubek Slater* | [zoom](https://lnu-se.zoom.us/j/6466400631)
-| Thursday | 06/18 | 18-19 | Live workshop, **Pybytes, PyMakr plugin.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
+| Thursday | 06/18 | 18-21 | Live workshop, **Pybytes, PyMakr plugin.** *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
 | Friday | 06/19 |  | **Midsummer** |
 | **WEEK 26**| **------**|**------** |**------**
 | Monday | 06/22 | 18-21 | Live workshop, **Sending data. Wifi, LoRa.**  *Ruslan, Osama, Amer.* | [zoom TBA](zoom)
