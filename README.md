@@ -17,11 +17,7 @@ Kursplanen hittas här: [Kursplan 1DT305](https://kursplan.lnu.se/kursplaner/kur
 
 ### Study guide (Swedish)
 
-[Studieguide]()
-
-### Planning
-
-[Schedule](https://hackmd.io/@lnu-iot/study-guide)
+[Studieguide](https://hackmd.io/@lnu-iot/study-guide)
 
 ### Course material
 
