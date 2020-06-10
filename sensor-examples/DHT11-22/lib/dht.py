@@ -1,8 +1,7 @@
 import time
 from machine import enable_irq, disable_irq
 
-
-class DTHResult:
+class DHTResult:
     'DHT sensor result returned by DHT.read() method'
 
     ERR_NO_ERROR = 0
@@ -19,10 +18,10 @@ class DTHResult:
         self.humidity = humidity
 
     def is_valid(self):
-        return self.error_code == DTHResult.ERR_NO_ERROR
+        return self.error_code == DHTResult.ERR_NO_ERROR
 
 
-class DTH:
+class DHT:
     'DHT sensor (dht11, dht21,dht22) reader class for Pycom'
 
     #  __pin = Pin('P3', mode=Pin.OPEN_DRAIN)
@@ -52,7 +51,7 @@ class DTH:
         # print(pull_up_lengths)
         # print(len(pull_up_lengths))
         if len(pull_up_lengths) != 40:
-            return DTHResult(DTHResult.ERR_MISSING_DATA, 0, 0)
+            return DHTResult(DHTResult.ERR_MISSING_DATA, 0, 0)
 
         # calculate bits from lengths of the pull up periods
         bits = self.__calculate_bits(pull_up_lengths)
@@ -63,7 +62,7 @@ class DTH:
         # calculate checksum and check
         checksum = self.__calculate_checksum(the_bytes)
         if the_bytes[4] != checksum:
-            return DTHResult(DTHResult.ERR_CRC, 0, 0)
+            return DHTResult(DHTResult.ERR_CRC, 0, 0)
 
         # ok, we have valid data, return it
         [int_rh, dec_rh, int_t, dec_t, csum] = the_bytes
@@ -75,7 +74,7 @@ class DTH:
             t = (((int_t & 0x7F) * 256) + dec_t)/10
             if (int_t & 0x80) > 0:
                 t *= -1
-        return DTHResult(DTHResult.ERR_NO_ERROR, t, rh)
+        return DHTResult(DHTResult.ERR_NO_ERROR, t, rh)
 
     def __send_and_sleep(self, output, mysleep):
         self.__pin(output)
