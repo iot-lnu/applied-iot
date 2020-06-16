@@ -12,6 +12,9 @@ value = 42
 # b or B . 0-255 or -128 -> 128 ..
 
 
-package = struct.pack('<H',value)
+struct.pack('<H',value)
+
+
+
 
 s.send(package)

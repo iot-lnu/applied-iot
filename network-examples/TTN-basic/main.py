@@ -16,8 +16,8 @@ print("DevEUI: " + ubinascii.hexlify(lora.mac()).decode('utf-8').upper())
 
 # create an OTAA authentication parameters
 
-app_eui = ubinascii.unhexlify('70B3D57ED00308A3')
-app_key = ubinascii.unhexlify('9D58EB22297839AEEBB7AC3B9BE8481B')
+app_eui = ubinascii.unhexlify('70B3D57ED00308AF')
+app_key = ubinascii.unhexlify('D7A33EA3982661191F69341907D05842')
 
 # join a network using OTAA (Over the Air Activation)
 lora.join(activation=LoRa.OTAA, auth=(app_eui, app_key), timeout=0)
@@ -43,7 +43,6 @@ s.bind(2)
 s.send(bytes([0x01,0x02]))
 
 s.setblocking(False)
-
 # get any data received...
 data = s.recv(64)
 print(data)
