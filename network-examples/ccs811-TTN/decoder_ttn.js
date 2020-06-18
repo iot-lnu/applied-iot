@@ -10,7 +10,7 @@ function Decoder(bytes, port) {
   var voc = (bytes[2] << 8) | bytes[3];
 
   return {
-    co2: co2
+    co2: co2,
     voc: voc
   }
 }

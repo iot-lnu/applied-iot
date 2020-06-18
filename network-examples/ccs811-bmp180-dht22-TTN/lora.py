@@ -38,7 +38,8 @@ def connect_lora():
         pycom.rgbled(0x000000)
         time.sleep(0.5)
 
-    # create a LoRa socket
+    # create a LoRa socket and make object global for other functions.
+    global s
     s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
 
     # set the LoRaWAN data rate
