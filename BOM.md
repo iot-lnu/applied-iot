@@ -16,8 +16,10 @@ We are happy to announce that [Electrokit](https://www.electrokit.com/) has agre
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 Basic bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-basic-bundle/)
 * [LNU – 1DT305 Tillämpad IoT – LoPy4 and sensors bundle](https://www.electrokit.com/produkt/lnu-1dt305-tillampad-iot-lopy4-and-sensors-bundle/)
 
-* It's also recommended with a battery if you want to power your device away from the computer (buy one with a switch, and you can use non-recharchable batteries):
-  * [Batterihållare AA](https://www.electrokit.com/produkt/batterihallare-2xaa-box-med-strombrytare-och-jst-xh-kontakt/)
+* It's also recommended with a battery if you want to power your device away from the computer. The expansion board has a built in LiPo charger, but if you want to use non-rechargeable batteries buy a holder with a switch. **Important make sure the connector is JST-PA or JST-PH, 2 mm**
+
+Wiki: [JST connectors](https://en.wikipedia.org/wiki/JST_connector)
+
   * [Batterihållare AAA](https://www.electrokit.com/produkt/batterihallare-3xaaa-med-strombrytare-och-jst-kontakt/)
   
   The expansion board has a built in LiPo-charger, so the best is to buy a LiPo-battery with JST-connection:
