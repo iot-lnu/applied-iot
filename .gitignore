@@ -2,5 +2,6 @@
 *.log
 keys.py
 pybytes_config.json
+data/telegraf.conf
 tig-stack/data/grafana/*
 tig-stack/data/influxdb/*

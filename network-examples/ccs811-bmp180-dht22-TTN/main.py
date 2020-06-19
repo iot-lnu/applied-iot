@@ -5,6 +5,7 @@ import struct
 import time
 import read_dht
 import pycom
+import _thread
 
 lora.connect_lora()
 from lora import s
@@ -50,7 +51,8 @@ def send_value():
     except (NameError, ValueError, TypeError):
         pass
 
-
-while True:
+def interval_(t_):
     send_value()
-    time.sleep(600)
+    time.sleep(t_)
+
+_thread.start_new_thread(interval_,[600])
