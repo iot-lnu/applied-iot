@@ -1,3 +1,6 @@
 *.key
 *.log
+keys.py
 pybytes_config.json
+tig-stack/data/grafana/*
+tig-stack/data/influxdb/*

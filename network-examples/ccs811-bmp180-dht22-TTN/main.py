@@ -4,6 +4,7 @@ import lora
 import struct
 import time
 import read_dht
+import pycom
 
 lora.connect_lora()
 from lora import s
@@ -24,23 +25,32 @@ from lora import s
 
 
 def send_value():
-    co2, voc, bmp_P, bmp_T = i2c_read.value()
-    dht_T, dht_RH = read_dht.value()
-    print('co2: ', co2) # two bytes
-    print('voc: ', voc) # two bytes
-    print('bmp P: ', bmp_P) # range of BMP180 300 as min and 1100 as max 800 range, 0,02hPa acc. Atm pressure.
-    print('bmp temp: ', bmp_T) # -40  +85 range. 125 total range. one byte
-    print('dht temp: ', dht_T) # one byte
-    print('dht RH: ', dht_RH) # one byte
-    package = (struct.pack('>H',int(co2) ) +
-               struct.pack('>H',int(voc) ) +
-               struct.pack('>H',int( (bmp_P-300) *(65536 / 800) ) ) +
-               struct.pack('>B',int( (bmp_T+40)* (256/125) ) ) +
-               struct.pack('>B',int( (dht_T+40)* (256/125) ) ) +
-               struct.pack('>B',int( (dht_RH)* (256/100) ) )
-               )
-    s.send(package)
+    try:
+        co2, voc, bmp_P, bmp_T = i2c_read.value()
+        dht_T, dht_RH = read_dht.value()
+        print('co2: ', co2) # two bytes
+        print('voc: ', voc) # two bytes
+        print('bmp P: ', bmp_P) # range of BMP180 300 as min and 1100 as max 800 range, 0,02hPa acc. Atm pressure.
+        print('bmp temp: ', bmp_T) # -40  +85 range. 125 total range. one byte
+        print('dht temp: ', dht_T) # one byte
+        print('dht RH: ', dht_RH) # one byte
+        package = (struct.pack('>H',int(co2) ) +
+                   struct.pack('>H',int(voc) ) +
+                   struct.pack('>H',int( (bmp_P-300) *(65536 / 800) ) ) +
+                   struct.pack('>B',int( (bmp_T+40)* (256/125) ) ) +
+                   struct.pack('>B',int( (dht_T+40)* (256/125) ) ) +
+                   struct.pack('>B',int( (dht_RH)* (256/100) ) )
+                   )
+        s.send(package)
+        for n in range(2):
+            pycom.rgbled(0xfcfc03)
+            time.sleep(1)
+            pycom.rgbled(0x000000)
+            time.sleep(0.5)
+    except (NameError, ValueError, TypeError):
+        pass
+
 
 while True:
     send_value()
-    time.sleep(30)
+    time.sleep(600)

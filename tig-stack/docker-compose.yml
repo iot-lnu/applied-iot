@@ -1,0 +1,37 @@
+influxdb:
+    image: influxdb:latest
+    ports:
+        - 8086:8086
+    environment:
+        INFLUXDB_DB: "iot"
+        INLFUX_ADMIN_USER: "grafana"
+        INFLUX_ADMIN_PASS: "grafana"
+    volumes:
+        - ./data/influxdb:/var/lib/influxdb
+
+grafana:
+    image: grafana/grafana:latest
+    ports: 
+        - 3000:3000
+    links:
+        - "influxdb:influxdb"
+    environment:
+        GF_SECURITY_ADMIN_USER: admin
+        GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+        - ./data/grafana:/var/lib/grafana
+    restart: always        
+
+telegraf:
+    image: telegraf:latest
+    environment:
+        HOST_NAME: "telegraf"
+        INFLUXDB_HOST: "influxdb"
+        INFLUXDB_PORT: "8086"
+        DATABASE: "iot"
+    links:
+        - "influxdb:influxdb"
+    volumes:
+        - ./data/telegraf.conf:/etc/telegraf/telegraf.conf
+    tty: true
+    privileged: true
