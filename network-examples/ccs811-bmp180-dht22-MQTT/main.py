@@ -1,11 +1,13 @@
 import i2c_read
-import struct
+import json
 import time
 import read_dht
 import pycom
 import _thread
 from mqtt import MQTTClient
-import keys
+
+with open('config.json') as f:
+    config = json.load(f)
 
 def sub_cb(topic, msg):
     print((topic, msg))
@@ -52,7 +54,7 @@ topic_sub = 'devices/office-sens/control'
 broker_url = 'sjolab.lnu.se'
 client_name = 'office-sensor-1'
 
-c = MQTTClient(client_name,broker_url,user=keys.user_mqtt,password=keys.pass_mqtt)
+c = MQTTClient(client_name,broker_url,user=config['user_mqtt'],password=config['pass_mqtt'])
 c.set_callback(sub_cb)
 c.connect()
 c.subscribe(topic_sub)
@@ -69,4 +71,4 @@ def listen_command():
             # app other useful actions would be performed instead)
             time.sleep(3)
 
-_thread.start_new_thread(interval_send,[10])
+#_thread.start_new_thread(interval_send,[10])

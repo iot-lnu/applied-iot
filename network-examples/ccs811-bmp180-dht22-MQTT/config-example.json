@@ -1,0 +1,6 @@
+{
+  "ssid": "Wifi SSID",
+  "ssid_pass": "WiFi pass",
+  "user_mqtt": "iotlnu",
+  "pass_mqtt": "micropython"
+}

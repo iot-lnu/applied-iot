@@ -6,3 +6,4 @@ tig-stack/data/grafana/*
 tig-stack/data/influxdb/*
 tig-stack/data/telegraf.conf
 .vscode
+network-examples/ccs811-bmp180-dht22-MQTT/config.json
