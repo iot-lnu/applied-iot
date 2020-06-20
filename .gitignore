@@ -5,3 +5,4 @@ pybytes_config.json
 tig-stack/data/grafana/*
 tig-stack/data/influxdb/*
 tig-stack/data/telegraf.conf
+.vscode
