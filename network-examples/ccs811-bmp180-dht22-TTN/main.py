@@ -6,6 +6,7 @@ import time
 import read_dht
 import pycom
 import _thread
+import json
 
 lora.connect_lora()
 from lora import s
@@ -55,4 +56,4 @@ def interval_(t_):
     send_value()
     time.sleep(t_)
 
-_thread.start_new_thread(interval_,[600])
+_thread.start_new_thread(interval_,[300])

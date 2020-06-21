@@ -5,6 +5,9 @@ import read_dht
 import pycom
 import _thread
 from mqtt import MQTTClient
+import ubinascii
+import hashlib
+import machine
 
 with open('config.json') as f:
     config = json.load(f)
@@ -52,7 +55,7 @@ def send_value():
 topic_pub = 'devices/office-sens/'
 topic_sub = 'devices/office-sens/control'
 broker_url = 'sjolab.lnu.se'
-client_name = 'office-sensor-1'
+client_name = ubinascii.hexlify(hashlib.md5(machine.unique_id()).digest()) # create a md5 hash of the pycom WLAN mac
 
 c = MQTTClient(client_name,broker_url,user=config['user_mqtt'],password=config['pass_mqtt'])
 c.set_callback(sub_cb)

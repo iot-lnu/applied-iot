@@ -6,7 +6,6 @@ import json
 import pycom
 pycom.heartbeat(False)
 
-
 with open('config.json') as f:
     config = json.load(f)
 
