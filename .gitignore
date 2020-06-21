@@ -2,8 +2,8 @@
 *.log
 keys.py
 pybytes_config.json
-tig-stack/data/grafana/*
-tig-stack/data/influxdb/*
-tig-stack/data/telegraf.conf
+tig-stack/data
+tig-stack/telegraf.conf
 .vscode
-network-examples/ccs811-bmp180-dht22-MQTT/config.json
+config.json
+.DS_Store

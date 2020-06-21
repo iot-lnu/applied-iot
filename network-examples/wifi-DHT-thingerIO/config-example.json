@@ -1,0 +1,10 @@
+{
+  "ssid": "Wifi SSID",
+  "ssid_pass": "WiFi pass",
+  "user_mqtt": "iotlnu",
+  "pass_mqtt": "micropython",
+  "APP_EUI": "70B3D57ED00308AF",
+  "APP_KEY": "D7A33EA3982661191F69341907D05842",
+  "request_url": "https://backend.thinger.io/v3/users/frahlg/devices/air1/callback/data",
+  "bearer": "098098098098098098098yJqdGkiOiJEZXZpY2VDYWxsYmFja19haXIxIiwidXNyIjoiZnJhaGxnIn0.oDxrfA7DHX_haZqZ1m85i-9Yd8GhQyoBLCr6GVF9vkc"
+}

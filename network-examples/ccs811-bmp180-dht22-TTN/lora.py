@@ -2,9 +2,14 @@ from network import LoRa
 import socket
 import time
 import ubinascii
-import keys
+import json
 import pycom
 pycom.heartbeat(False)
+
+
+with open('config.json') as f:
+    config = json.load(f)
+
 
 # Initialise LoRa in LORAWAN mode.
 # Please pick the region that matches where you are using the device:
@@ -18,8 +23,9 @@ print("DevEUI: " + ubinascii.hexlify(lora.mac()).decode('utf-8').upper())
 
 # create an OTAA authentication parameters
 
-app_eui = ubinascii.unhexlify(keys.APP_EUI) ## app key
-app_key = ubinascii.unhexlify(keys.APP_KEY)
+app_eui = ubinascii.unhexlify(config['APP_EUI']) ## app key
+app_key = ubinascii.unhexlify(config['APP_KEY'])
+
 
 def connect_lora():
     # join a network using OTAA (Over the Air Activation)

@@ -34,13 +34,13 @@ def send_value():
         print('bmp temp: ', bmp_T) # -40  +85 range. 125 total range. one byte
         print('dht temp: ', dht_T) # one byte
         print('dht RH: ', dht_RH) # one byte
-        c.publish(topic_pub,'{"co2":' + str(co2) +
+        c.publish(topic_pub,'{"office_sensor": {"co2":' + str(co2) +
                           ',"voc":'+ str(voc) +
                           ',"bmp P":' + str(bmp_P) +
                           ',"bmp temp":' + str(bmp_T) +
                           ',"dht temp":' + str(dht_T) +
                           ',"dht RH":' + str(dht_RH) +
-                          '}')
+                          '}}')
         blink_led()
 
     except (NameError, ValueError, TypeError):
@@ -58,6 +58,9 @@ c = MQTTClient(client_name,broker_url,user=config['user_mqtt'],password=config['
 c.set_callback(sub_cb)
 c.connect()
 c.subscribe(topic_sub)
+
+# not used at the moment in this code. But - if you want to have something sent
+# back to the device run this function in a loop (or in a thread)
 
 def listen_command():
     while True:

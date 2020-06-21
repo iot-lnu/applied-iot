@@ -3,10 +3,12 @@ import pycom
 import urequests
 import time
 from machine import deepsleep
-import keys
 
-url = keys.url
-bearer = '?authorization=' + keys.bearer
+with open('config.json') as f:
+    config = json.load(f)
+
+url = config['request_url']
+bearer = '?authorization=' + config['bearer']
 
 def send_data():
     try:
