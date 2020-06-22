@@ -1,15 +1,13 @@
-# my first project ..
+# Data is sent to Pybytes. Needs to flashed with Pybyte firmware
 import time
 from machine import Pin
-import _thread
-from dht import DHT
+from dth import DHT # https://github.com/JurassicPork/DHT_PyCom
 
 # Type 0 = dht11
 # Type 1 = dht22
 
 th = DHT(Pin('P23', mode=Pin.OPEN_DRAIN), 1)
 time.sleep(2)
-
 
 
 while True:
