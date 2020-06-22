@@ -24,8 +24,8 @@ def value():
     voc = ccs.tVOC
     bmp_T = bmp.temperature
     bmp_P = bmp.pressure
-    print(co2,voc)
-    print('Temperature', bmp.temperature)
-    print('Pressure', bmp.pressure)
+    # print(co2,voc)
+    # print('Temperature', bmp.temperature)
+    # print('Pressure', bmp.pressure)
     if co2 > 399:    # just to filter out faulty readings
         return(co2,voc,bmp_P, bmp_T)

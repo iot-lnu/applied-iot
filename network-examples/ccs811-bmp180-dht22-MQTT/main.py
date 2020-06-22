@@ -31,12 +31,12 @@ def send_value():
     try:
         co2, voc, bmp_P, bmp_T = i2c_read.value()
         dht_T, dht_RH = read_dht.value()
-        print('co2: ', co2) # two bytes
-        print('voc: ', voc) # two bytes
-        print('bmp P: ', bmp_P) # range of BMP180 300 as min and 1100 as max 800 range, 0,02hPa acc. Atm pressure.
-        print('bmp temp: ', bmp_T) # -40  +85 range. 125 total range. one byte
-        print('dht temp: ', dht_T) # one byte
-        print('dht RH: ', dht_RH) # one byte
+        # print('co2: ', co2) # two bytes
+        # print('voc: ', voc) # two bytes
+        # print('bmp P: ', bmp_P) # range of BMP180 300 as min and 1100 as max 800 range, 0,02hPa acc. Atm pressure.
+        # print('bmp temp: ', bmp_T) # -40  +85 range. 125 total range. one byte
+        # print('dht temp: ', dht_T) # one byte
+        # print('dht RH: ', dht_RH) # one byte
         c.publish(topic_pub,'{"office_sensor": {"co2":' + str(co2) +
                           ',"voc":'+ str(voc) +
                           ',"bmp P":' + str(bmp_P) +
@@ -44,10 +44,11 @@ def send_value():
                           ',"dht temp":' + str(dht_T) +
                           ',"dht RH":' + str(dht_RH) +
                           '}}')
+        print('Sensor data sent ..')
         blink_led()
 
     except (NameError, ValueError, TypeError):
-        pass
+        print('Failed to send!')
 
 
 # topic = 'testtopic7891/1'
@@ -77,4 +78,4 @@ def listen_command():
             # app other useful actions would be performed instead)
             time.sleep(3)
 
-#_thread.start_new_thread(interval_send,[10])
+_thread.start_new_thread(interval_send,[10])
