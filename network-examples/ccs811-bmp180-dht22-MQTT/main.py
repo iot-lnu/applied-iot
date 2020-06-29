@@ -13,6 +13,12 @@ with open('config.json') as f:
     config = json.load(f)
 
 def sub_cb(topic, msg):
+    if msg == b'{"Command":"Red"}': pycom.rgbled(0xff0000)
+    if msg == b'{"Command":"Blue"}': pycom.rgbled(0x0004ff)
+    if msg == b'{"Command":"Green"}': pycom.rgbled(0x00ff04)
+    if msg == b'{"Command":"Yellow"}': pycom.rgbled(0xe5ff00)
+    if msg == b'{"Command":"White"}': pycom.rgbled(0xe5ff00)
+    if msg == b'{"Command":"Off"}': pycom.rgbled(0x000000)
     print((topic, msg))
 
 def interval_send(t_):
@@ -66,16 +72,22 @@ c.subscribe(topic_sub)
 # not used at the moment in this code. But - if you want to have something sent
 # back to the device run this function in a loop (or in a thread)
 
-def listen_command():
+# def listen_command():
+#     while True:
+#         if True:
+#             # Blocking wait for message
+#             c.wait_msg()
+#         else:
+#             # Non-blocking wait for message
+#             c.check_msg()
+#             # Then need to sleep to avoid 100% CPU usage (in a real
+#             # app other useful actions would be performed instead)
+#             time.sleep(2)
+
+def listen_command(i_):
     while True:
-        if True:
-            # Blocking wait for message
-            c.wait_msg()
-        else:
-            # Non-blocking wait for message
-            c.check_msg()
-            # Then need to sleep to avoid 100% CPU usage (in a real
-            # app other useful actions would be performed instead)
-            time.sleep(3)
+        c.check_msg()
+        time.sleep(i_)
 
 _thread.start_new_thread(interval_send,[10])
+_thread.start_new_thread(listen_command,[0.1])
