@@ -18,7 +18,7 @@ services:
         networks: 
             - tig-net
         volumes:
-            - ./data/influxdb:/var/lib/influxdb
+            - tig-data
 
     grafana:
         image: grafana/grafana:7.1.3
@@ -29,7 +29,7 @@ services:
             GF_SECURITY_ADMIN_USER: admin
             GF_SECURITY_ADMIN_PASSWORD: admin
         volumes:
-            - ./data/grafana:/var/lib/grafana
+            - tig-data
         networks: 
             - tig-net
         restart: always        
