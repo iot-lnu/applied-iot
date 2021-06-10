@@ -1,5 +1,5 @@
 
-# Bill of Material
+# Bill of Material for course 2020
 
 Bill of materials for the course in Applied IoT ([Tillämpad IoT Introduktion, 1DT305](https://lnu.se/kurs/tillampad-internet-of-things-introduktion/distans-sommar/)) @ Linnaeus University 2020.
 
