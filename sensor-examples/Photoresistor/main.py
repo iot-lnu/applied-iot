@@ -8,7 +8,7 @@ lightPin = Pin(LightSensorPin, mode=Pin.IN)  # set up pin mode to input
 #
 adc = ADC(bits=10)             # create an ADC object bits=10 means range 0-1024 the lower value the less light detected
 apin = adc.channel(attn=ADC.ATTN_11DB, pin=LightSensorPin)   # create an analog pin on P16;  attn=ADC.ATTN_11DB measures voltage from 0.1 to 3.3v
-                 
+
 
 while True:
     val = apin() # read an analog value
