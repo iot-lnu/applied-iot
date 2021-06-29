@@ -7,7 +7,8 @@ from machine import Timer
 motionDetected = 1
 noMotionDetected = 0
 hold_time_sec = 0.1
-pir = Pin('P4',mode=Pin.IN)
+
+pir = Pin('P13',mode=Pin.IN)
 
 chrono = Timer.Chrono()
 chrono.start()
