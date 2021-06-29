@@ -85,11 +85,7 @@ How to interface it on your Pycom [**here**](https://docs.pycom.io/firmwareapi/p
 
 #### UART
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/UART_block_diagram.svg/440px-UART_block_diagram.svg.png =300x)
-
-How to interface UART on your pycom [**here**](https://docs.pycom.io/firmwareapi/pycom/machine/uart/). UART explained clearly here:
-
-{%youtube V6m2skVlsQI %}
+How to interface UART on your pycom [**here**](https://docs.pycom.io/firmwareapi/pycom/machine/uart/). UART explained clearly [here](youtube V6m2skVlsQI).
 
 
 
