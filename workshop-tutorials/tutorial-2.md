@@ -85,7 +85,7 @@ How to interface it on your Pycom [**here**](https://docs.pycom.io/firmwareapi/p
 
 #### UART
 
-How to interface UART on your pycom [**here**](https://docs.pycom.io/firmwareapi/pycom/machine/uart/). UART explained clearly [here](youtube V6m2skVlsQI).
+How to interface UART on your pycom [**here**](https://docs.pycom.io/firmwareapi/pycom/machine/uart/). UART explained clearly [here](https://www.youtube.com/watch?v=V6m2skVlsQI).
 
 
 
@@ -129,7 +129,7 @@ Analog sensors are devices that produce analog output. These sensors observe the
 
 In this section we want to show you a typical example of how to do this in micropython. For this example we'll use the [TMP36](https://www.electrokit.com/produkt/tmp36-to-92-temperaturgivare/), an analog temperature sensor. (It's similar to temperature sensor MCP9700 which followed in the electrokit bundle)
 
-![](https://i.imgur.com/8ldqjSn.png =200x)
+![](https://i.imgur.com/8ldqjSn.png)
 
 
 First thing we want to do is to create an [ADC](https://docs.pycom.io/firmwareapi/pycom/machine/adc/#app) object for analog to digital conversion. This is the "thing" in our code we'll use to read from our sensor. 
@@ -195,7 +195,7 @@ Contrary to analog sensors, digital sensors only output high or low - also known
 
 They could be anything from a basic tilt switch to a movement sensor. A prime example of a digital sensor is a [knock sensor](https://www.electrokit.com/en/product/knock-sensor/) (See figure below from Electrokit).
 
-![](https://i.imgur.com/DRxvFgC.jpg =300x)
+![](https://i.imgur.com/DRxvFgC.jpg)
 
 
 The knock sensor detects, as you can imagine, knocks and vibrations. The middle pin needs to be connected to **5V** (3.3V might also work) and the pin denoted with a "**$-$**" should be connected to **Ground** (**GND**). If the sensor detects any vibrations, the pin denoted with an "**S**" is set to `0`. If *no* vibrations are detected, it is set to `1`. It is therefore pretty straight forward to extract the information from the sensor. 
@@ -251,7 +251,7 @@ We then check the value form the sensor in order to determine what message to pr
 time.sleep(0.1)
 ```
 
-Lastly, we let $0.1$ seconds pass before a new read from the sensor. 
+Lastly, we let 0.1 seconds pass before a new read from the sensor. 
 
 ## Sensors that require a library
 These are often more advanced sensors, but can also be basic and the libraries just make life easier. In this section, we demonstrate how to use sensors that requires a library.
