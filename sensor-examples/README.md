@@ -6,6 +6,7 @@ General:
 - Button & Led Example
 - Blink Example 
 - Button Example - By Electrokit
+- Buzzer
 
 Sensors:
 - BMP085 & BMP180 Temperature & Pressure Sensor
@@ -16,7 +17,6 @@ Sensors:
 - Vibration Sensor
 - Knock Sensor
 - DHT11 & DHT22 - Humidity & Temperature Sensor
-- Buzzer
 - SJ-PM-TF-Luna - LiDAR Sensor 
 - Hall effect
 
