@@ -58,7 +58,7 @@ class LIDAR:
 
     def reset(self):
         self._write(const.RESTORE_FACTORY_DEFAULTS, 0x01)
-        self._save_reboot()
+        self._save_reboot()in >> 8,
 
     def set_min_max(self, min, max):
         min *= 10
