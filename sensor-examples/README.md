@@ -19,6 +19,8 @@ Sensors:
 - DHT11 & DHT22 - Humidity & Temperature Sensor
 - SJ-PM-TF-Luna - LiDAR Sensor 
 - Hall effect
+- BME680 Air Quality Sensor
+- INA260 - Digital Current and Power Monitor
 
 Motors:
 - SG90 Servo
