@@ -29,8 +29,8 @@ while True:
     payload['temperature'] = 25.44
     payload['humidity'] = 39.85
     payload['lights_on'] = 0
-    
-    json_payload = ujson.dumps(message)
+
+    json_payload = ujson.dumps(payload)
     print(json_payload)
 
     client.publish(topic=my_topic, msg=json_payload)
