@@ -8,6 +8,9 @@ General:
 - Button Example - By Electrokit
 - Buzzer
 
+Displays:
+- Grove Oled 1"2 display 128x128
+
 Sensors:
 - BMP085 & BMP180 Temperature & Pressure Sensor
 - CCS811 - Air Quality Sensor
