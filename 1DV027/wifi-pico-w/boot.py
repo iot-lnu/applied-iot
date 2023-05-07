@@ -1,5 +1,6 @@
 # boot.py -- run on boot-up
 import network, utime
+import socket
 
 # Replace the following with your WIFI Credentials
 SSID = "iotlab"
@@ -23,7 +24,6 @@ do_connect()
 
 # This part shows how to use socket 
 
-import socket
 addr = socket.getaddrinfo('micropython.org', 80)[0][-1]
 s = socket.socket()
 s.connect(addr)
