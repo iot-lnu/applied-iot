@@ -39,3 +39,11 @@ Youtube Link to [Lecture03](https://www.youtube.com/watch?v=0QO1qudP6xk)
 Youtube Link to [Lecture04_Topic01](https://www.youtube.com/watch?v=ks0HGBduJ5Q)
 Youtube Link to [Lecture04_Topic02](https://www.youtube.com/watch?v=sfRXbqhHs5A)
 Youtube Link to [Lecture04_Topic03](https://www.youtube.com/watch?v=yFWMzFqbWOM)
+Youtube Link to [Lecture04_Topic04](https://www.youtube.com/watch?v=dfERrrLX-oE)
+Youtube Link to [Lecture04_Topic05](https://www.youtube.com/watch?v=HqyPeoparWw)
+
+### Lecture05
+Youtube Link to [Lecture05](https://www.youtube.com/watch?v=nqGLvCctrMw)
+
+### Lecture06
+Youtube Link to [Lecture06](https://www.youtube.com/watch?v=ks0HGBduJ5Q)
