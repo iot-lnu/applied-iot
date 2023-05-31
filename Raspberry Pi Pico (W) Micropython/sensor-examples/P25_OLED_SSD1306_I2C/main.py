@@ -1,0 +1,36 @@
+from machine import SoftI2C, Pin
+from ssd1306 import SSD1306_I2C
+import time
+
+i2c = SoftI2C(sda=Pin(26), scl=Pin(27))
+display = SSD1306_I2C(128, 64, i2c)
+
+while True:
+    display.fill(1)
+    display.show()
+    time.sleep(3)
+    display.fill(0)
+    display.show()
+    time.sleep(3)
+    display.text('Hello', 0, 5)
+    display.text('World', 0, 21)
+    display.text('Pico User', 0, 37)
+    display.show()
+    time.sleep(3)
+    display.poweroff()
+    time.sleep(2)
+    display.invert(1)
+    display.poweron()
+    time.sleep(3)
+    display.fill(0)
+    display.fill_rect(0, 0, 32, 32, 1)
+    display.fill_rect(2, 2, 28, 28, 0)
+    display.vline(9, 8, 22, 1)
+    display.vline(16, 2, 22, 1)
+    display.vline(23, 8, 22, 1)
+    display.fill_rect(26, 24, 2, 4, 1)
+    display.text('MicroPython', 40, 5, 1)
+    display.text('SSD1306', 40, 21, 1)
+    display.text('OLED 128x64', 40, 37, 1)
+    display.show()
+    time.sleep(5)
