@@ -1,0 +1,2 @@
+# WiFi connection on Raspberry Pi Pico W
+The code is based on [Using WiFi](https://hackmd.io/@lnu-iot/rJVQizwUh) tutorial, shows how to connect to WiFi router form Raspberry Pi Pico W. You must set the router SSID and Password in keys.py

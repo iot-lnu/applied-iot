@@ -1,0 +1,2 @@
+# Using HTTP request on REST API in Ubidots
+This project is the code from [Ubidots (HTTP request on REST API)](https://hackmd.io/@lnu-iot/r1k63jjwo) tutorial on Raspberry Pi Pico W MicroPython. It shows how to connect to the board to WiFi, then generate a random number between 0 - 100 and submit it to the Ubidots server with REST API to show the value in a gauge. If the submitted value is greater than 70 it triggers an action and change the color of an indicator to RED and if it receives a value less than 70 it turns it back to GREEN. All the keys can be set in lib/keys.py 
