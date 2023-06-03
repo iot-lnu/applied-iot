@@ -1,25 +1,4 @@
-def do_connect():
-    import keys
-    import network
-    from time import sleep
-    import machine
-    wlan = network.WLAN(network.STA_IF)         # Put modem on Station mode
-
-    if not wlan.isconnected():                  # Check if already connected
-        print('connecting to network...')
-        wlan.active(True)                       # Activate network interface
-        # set power mode to get WiFi power-saving off (if needed)
-        wlan.config(pm = 0xa11140)
-        wlan.connect(keys.ssid, keys.password)  # Your WiFi Credential
-        print('Waiting for connection...', end='')
-        # Check if it is connected otherwise wait
-        while not wlan.isconnected() and wlan.status() >= 0:
-            print('.', end='')
-            sleep(1)
-    # Print the IP assigned by router
-    ip = wlan.ifconfig()[0]
-    print('\nConnected on {}'.format(ip))
-    return ip 
+import wifiConnection
 
 
 def http_get(url = 'http://detectportal.firefox.com/'):
@@ -38,7 +17,7 @@ def http_get(url = 'http://detectportal.firefox.com/'):
 
 # WiFi Connection
 try:
-    ip = do_connect()
+    ip = wifiConnection.connect()
 except KeyboardInterrupt:
     print("Keyboard interrupt")
 
@@ -47,3 +26,6 @@ try:
     http_get()
 except Exception as err:
     print("Exception", err)
+
+# WiFi Disconnect
+wifiConnection.disconnect()
