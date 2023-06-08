@@ -1,16 +1,16 @@
-from machine import Pin
-import utime as time
-from dht import DHT11
-import struct 
+import dht
+import machine
+import time
 
-pin = Pin(27, Pin.OUT, Pin.PULL_DOWN)
-sensor = DHT11(pin)
+tempSensor = dht.DHT11(machine.Pin(27))     # DHT11 Constructor 
+# tempSensor = dht.DHT22(machine.Pin(27))   # DHT22 Constructor
 
 while True:
-    time.sleep(5)
-
-    t  = (sensor.temperature)
-    h = (sensor.humidity)
-    
-    print("Temperature: {}".format(t))
-    print("Humidity: {}".format(h))
+    try:
+        tempSensor.measure()
+        temperature = tempSensor.temperature
+        humidity = tempSensor.humidity
+        print("Temperature is {} degrees Celsius and Humidity is {}%".format(temperature, humidity))
+        time.sleep(2)
+    except:
+        pass
