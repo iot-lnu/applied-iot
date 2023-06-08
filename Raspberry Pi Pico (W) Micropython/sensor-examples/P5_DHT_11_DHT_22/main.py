@@ -1,13 +1,12 @@
-import dht
-import machine
-import time
-
-tempSensor = dht.DHT11(machine.Pin(27))     # DHT11 Constructor 
-# tempSensor = dht.DHT22(machine.Pin(27))   # DHT22 Constructor
+from machine import Pin
+import utime as time
+from dht import DHT11, InvalidChecksum
 
 while True:
-    tempSensor.measure()
-    temperature = tempSensor.temperature()
-    humidity = tempSensor.humidity()
-    print("Temperature is {} degrees Celsius and Humidity is {}%".format(temperature, humidity))
-    time.sleep(2)
+    time.sleep(5)
+    pin = Pin(28, Pin.OUT, Pin.PULL_DOWN)
+    sensor = DHT11(pin)
+    t  = (sensor.temperature)
+    h = (sensor.humidity)
+    print("Temperature: {}".format(sensor.temperature))
+    print("Humidity: {}".format(sensor.humidity))
