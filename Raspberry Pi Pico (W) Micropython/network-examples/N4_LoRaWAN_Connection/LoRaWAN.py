@@ -4,8 +4,9 @@ import binascii
 
 class lora:
 
-  def __init__(self, serial):
+  def __init__(self, serial, debug=False):
     self._serial = serial
+    self.debug = debug
 
   def Init(self, serial, RX, TX):
     self._serial = serial
@@ -53,7 +54,8 @@ class lora:
   def sendMsg(self, confirm, nbtrials, data):
 
     cmd = f"AT+DTRX={confirm},{nbtrials},{len(data)},{data}\r\n"
-    print("SENT", cmd)
+    if self.debug:
+      print("SENT", cmd)
     self.writeCMD(cmd)
     self.getResponse()
 
@@ -126,14 +128,16 @@ class lora:
 
     time.sleep(0.05)
     restr = self.waitMsg(200)
-    print(restr)
+    if self.debug:
+      print(restr)
 
     return restr
 
   def init(self):
     while not self.checkDeviceConnect():
       pass
-    print("Module Connected")
+    if self.debug:
+      print("Module Connected")
 
     self.writeCMD("AT+CRESTORE\r\n")
 
