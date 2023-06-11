@@ -1,6 +1,5 @@
 *.key
 *.log
-keys.py
 pybytes_config.json
 tig-stack/data
 tig-stack/telegraf.conf
