@@ -1,12 +1,15 @@
 import time
 import binascii
+from machine import UART
 
+# https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/lorawan/ASR650X%20AT%20Command%20Introduction-20190605.pdf
 
 class lora:
 
-  def __init__(self, serial, debug=False):
-    self._serial = serial
+  def __init__(self, debug=False):
+    self._serial = UART(0, 115200)  # use RPI PICO GP0 and GP1
     self.debug = debug
+    self.init()
 
   def Init(self, serial, RX, TX):
     self._serial = serial
@@ -51,7 +54,7 @@ class lora:
     self._serial.write(command)
     time.sleep(0.1)
 
-  def sendMsg(self, confirm, nbtrials, data):
+  def sendMsg(self, data, confirm=1, nbtrials=1):
 
     cmd = f"AT+DTRX={confirm},{nbtrials},{len(data)},{data}\r\n"
     if self.debug:
