@@ -30,7 +30,7 @@ class lora:
     self.writeCMD("AT+CSTATUS?\r\n")
     restr = self.getResponse()
     if restr.find("+CSTATUS:") != -1:
-      if restr.find("03") != -1 or restr.find("07") != -1 or restr.find("08") != -1:
+      if restr.find("08") != -1: # or restr.find("07") != -1 or restr.find("08") != -1:
         return True
       else:
         return False
