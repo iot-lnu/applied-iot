@@ -3,8 +3,8 @@ import network, utime
 import socket
 
 # Replace the following with your WIFI Credentials
-SSID = "iotlab"
-SSID_PASSWORD = "modermodemet"
+SSID = "Your_WiFi_SSID"
+SSID_PASSWORD = "Your_WiFi_Password"
 
 
 def do_connect():
