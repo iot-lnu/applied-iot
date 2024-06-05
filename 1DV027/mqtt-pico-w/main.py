@@ -11,10 +11,10 @@ MQTT_BROKER = "io.adafruit.com" # MQTT broker IP address or DNS
 #EXAMPLE IP ADDRESS
 #MQTT_BROKER = '192.168.1.144'
 PORT = 1883
-ADAFRUIT_USERNAME = "nedamaleki"
-ADAFRUIT_PASSWORD = "aio_yKfQ55LifWth0EvPebO9I6ycpzJg" #"aio_qDKx7367kQvU9VgcSxtCiKQcSEBe"
-SUBSCRIBE_TOPIC = b"nedamaleki/f/led"
-PUBLISH_TOPIC = b"nedamaleki/f/picow"
+ADAFRUIT_USERNAME = "Your_Adafruit_Username"
+ADAFRUIT_PASSWORD = "Your_Adafruit_Password"
+SUBSCRIBE_TOPIC = b"Your_SUBSCRIBE_Feed_Address"
+PUBLISH_TOPIC = b"Your_Publish_Feed_Address"
 
 
 # Setup built in PICOW LED as Output
